@@ -1,14 +1,6 @@
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
 body {
   font-family: "Montserrat-Thin";
+  text-align: center;
 }
 
 h1 {
@@ -24,6 +16,20 @@ h2 {
   font-weight: bolder;
   font-size: 3rem;
   line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
 }
 
 /* Navigation Bar */
@@ -51,19 +57,21 @@ h2 {
   margin: 5% 3% 5% 0;
 }
 
+/* title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 /* title image */
 .title-img {
-
   transform: rotate(25deg);
   position: absolute;
   right: 25%;
-
 }
 
 /*features-section */
 #features {
-  background-color: white;
-  padding: 7% 15%;
   position: relative;
   z-index: 1;
 }
@@ -91,15 +99,12 @@ h2 {
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
 /* Testimonials section */
 #testimonials {
   background-color: #ef8172;
-  color: white;
-  text-align: center;
 }
 
 .testimonialImg {
@@ -110,7 +115,6 @@ h2 {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -119,14 +123,9 @@ h2 {
   margin: 20px 20px 50px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Pricing section */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-col {
@@ -134,35 +133,33 @@ h2 {
 }
 
 /* CTA section */
-#cta{
-  text-align: center;
-  color: white;
+#cta {
   background-color: #ff4c68;
-  padding: 7% 15%
 }
 
-.cta-heading{
+.cta-heading {
   font-family: "Montserrat-Black 900";
   font-weight: bolder;
   font-size: 3.5rem;
   line-height: 1.5;
 }
+
 /* footer section */
-#footer{
-  padding: 7% 15%
+#footer {
   background-color: #fff;
-  text-align: center;
 }
-.footer-icon{
+
+.footer-icon {
   margin: 20px 10px;
 }
+
 @media (max-width: 1100px) {
   .title-img {
-
     transform: rotate(0);
     position: static;
   }
-#title{
+
+  #title {
     text-align: center;
   }
 }
